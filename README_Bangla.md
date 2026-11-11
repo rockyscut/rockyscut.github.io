@@ -1,4 +1,4 @@
-# Rocky Chakma — Academic Website Preview
+# Rocky Chakma — Published Academic Website
 
 ## বাংলা: Preview দেখার নিয়ম
 1. ZIP ফাইল Extract করুন।
@@ -30,6 +30,11 @@
 - `pages/contact.html`: Public professional profiles
 - `css/style.css`: All design / colors / layout
 - `js/site.js`: English / Chinese switching and mobile menu
-- `assets/portrait.jpg`: Optimized user-supplied profile photograph
+- `index.html`: Contains the optimized profile photograph as an embedded JPEG; no separate image upload is required
 
 No external CSS/JS libraries are required. All links are relative, so the site works in GitHub Pages.
+
+## Published GitHub Pages
+- Website: https://rockyscut.github.io/
+- Repository: https://github.com/rockyscut/rockyscut.github.io
+- Live version embeds the profile photograph in `index.html` to avoid missing-image problems.
