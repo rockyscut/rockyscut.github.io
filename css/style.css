@@ -13,3 +13,12 @@
 .figcap{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#6d8193;margin-top:6px;text-align:center}.pub-feature .figure svg{max-width:100%;height:auto;display:block}.doilink{display:inline-block;margin-top:8px}.section h2{display:flex;align-items:center;gap:10px}
 
 .figure img{display:block;width:100%;height:auto;border-radius:8px;background:#f4f7fa}
+
+/* Full experimental figure thumbnails, with link to original-resolution file */
+.pub-feature{grid-template-columns:220px minmax(0,1fr)}
+.pub-feature .figure{display:block;padding:6px;min-height:unset;background:#fff}
+.pub-feature .figure:after{content:none}
+.pub-feature .figure a{display:block;line-height:0}
+.pub-feature .figure img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;object-position:center;border-radius:4px}
+.pub-feature .figcap{text-transform:none;letter-spacing:0;font-size:11px;line-height:1.5;padding:3px 4px 5px}
+@media(max-width:735px){.pub-feature{grid-template-columns:1fr}.pub-feature .figure{max-width:420px}}
