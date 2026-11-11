@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" width="320" height="190" role="img" aria-label="Preview of H-shaped unit-cell RIS paper figure">
+<rect width="320" height="190" fill="#f6f8fb"/>
+<rect x="16" y="18" width="116" height="116" rx="8" fill="#ffffff" stroke="#cad4df"/>
+<g transform="translate(0,0)">
+<rect x="44" y="49" width="18" height="54" rx="4" fill="#2f7595"/>
+<rect x="86" y="49" width="18" height="54" rx="4" fill="#2f7595"/>
+<rect x="44" y="49" width="60" height="16" rx="4" fill="#2f7595"/>
+<rect x="44" y="87" width="60" height="16" rx="4" fill="#2f7595"/>
+<rect x="62" y="68" width="24" height="16" rx="2" fill="#ffffff" stroke="#2f7595" stroke-width="3"/>
+<line x1="74" y1="68" x2="74" y2="84" stroke="#cb8a35" stroke-width="3"/>
+<circle cx="74" cy="76" r="3" fill="#cb8a35"/>
+</g>
+<rect x="154" y="18" width="150" height="116" rx="8" fill="#ffffff" stroke="#cad4df"/>
+<path d="M171 101 C193 63, 208 40, 225 35 C240 31, 251 49, 263 44 C276 39, 284 20, 297 22" fill="none" stroke="#cb8a35" stroke-width="4"/>
+<path d="M171 111 L297 111" stroke="#d8e1ea" stroke-width="2"/>
+<path d="M171 89 C194 92, 217 87, 240 73 S282 55, 297 58" fill="none" stroke="#6188ad" stroke-width="4"/>
+<g stroke="#cfd9e2" stroke-width="2">
+<line x1="171" y1="124" x2="297" y2="124"/>
+<line x1="171" y1="98" x2="297" y2="98"/>
+<line x1="171" y1="72" x2="297" y2="72"/>
+<line x1="171" y1="46" x2="297" y2="46"/>
+</g>
+<g fill="#17324d" font-family="Arial, sans-serif">
+<text x="15" y="152" font-size="15" font-weight="700">H-shaped unit cell with PIN diode</text>
+<text x="15" y="170" font-size="12">1-bit phase control for beam scanning</text>
+<text x="15" y="185" font-size="12">IEEE AWPL 2026 · Unit-cell and scan response</text>
+</g>
+</svg>
