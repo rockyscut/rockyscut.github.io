@@ -1,4 +1,4 @@
-# Rocky Chakma — Published Academic Website
+# Rocky Chakma — Academic Website Preview
 
 ## বাংলা: Preview দেখার নিয়ম
 1. ZIP ফাইল Extract করুন।
@@ -11,9 +11,9 @@
 - CV-এর তথ্য ব্যবহার করা হয়েছে (Rocky Chakma CV, November 11, 2026)।
 - গবেষণা ছবিগুলো সচেতনভাবে illustrative schematic; প্রকৃত measurement plot নয়।
 - ব্যক্তিগত ফোন/বাসার ঠিকানা/ইমেইল ও মূল CV PDF এই public-preview package-এ রাখা হয়নি।
-- বর্তমান GitHub Pages repository-তে প্রকাশের জন্য প্রস্তুত।
+- এখনও আপনার `rockyscut.github.io`-তে নতুন theme deploy করা হয়নি।
 
-## GitHub Pages প্রকাশিত সংস্করণের নিয়ম
+## Preview অনুমোদনের পর GitHub Pages-এ প্রকাশের নিয়ম
 1. Repo: https://github.com/rockyscut/rockyscut.github.io
 2. পুরোনো `index.html` ও অন্যান্য homepage file বদলানোর আগে GitHub থেকে backup রাখুন।
 3. এই ZIP-এর ভিতরের সব file/folder GitHub repository root-এ upload করুন (`index.html`, `pages/`, `css/`, `js/`, `assets/`, `.nojekyll`, `favicon.svg`)।
@@ -30,11 +30,6 @@
 - `pages/contact.html`: Public professional profiles
 - `css/style.css`: All design / colors / layout
 - `js/site.js`: English / Chinese switching and mobile menu
-- `index.html`: Contains the optimized profile photograph as an embedded JPEG; no separate image upload is required
+- `assets/portrait.jpg`: Optimized user-supplied profile photograph
 
 No external CSS/JS libraries are required. All links are relative, so the site works in GitHub Pages.
-
-## Published GitHub Pages
-- Website: https://rockyscut.github.io/
-- Repository: https://github.com/rockyscut/rockyscut.github.io
-- Live version embeds the profile photograph in `index.html` to avoid missing-image problems.
